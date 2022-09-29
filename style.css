@@ -1,0 +1,145 @@
+h1 {
+    color: white;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/originals/70/a2/56/70a256e210412571d9de96bbc7316a22.jpg);
+    width: 100%;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+}
+form {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 10px 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.idiomas {
+    color: white;
+    width: 600px;
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.idiomas:hover {
+    opacity: 0.73;
+    color: white;
+    transition: color 1s;
+}
+
+.conector {
+    color: white;
+    width: 600px;
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+    cursor: pointer;
+    border-radius: 1rem;   
+}
+.Conector {
+    cursor: pointer;
+    border-radius: 0.7rem;
+    border: none;
+    width: 80px;
+    height: 25px;
+    font-size: medium;
+    color: black;
+
+}
+.Conector:hover {
+    opacity: 0.73;
+    background-color: #A01A7D;
+    transition: color 1s;
+}
+
+.nombres {
+    width: 610px;
+    color: white;
+    cursor: pointer;
+    border-radius: 1rem;
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+}
+.nombres input {
+    border-radius: 2em;
+    width: 35%;
+    cursor: pointer;
+
+}
+
+.sexo {
+    border-radius: 1rem;
+    width: 600px;
+}
+
+.sexo label {
+
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    color: white;
+    font-size: x-large;
+}
+.seleccion {
+    border-radius: 5px 5px;
+    height: 4em;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100px;
+    transform: translateX(70px);
+    cursor: pointer;
+}
+.checkboxes {
+    width: 600px;
+    border-radius: 1rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: x-large;
+}
+.texto {
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+.date {
+    justify-content: right;
+    text-align: right;
+    display: flex;
+    transform: translateX(150px);
+    padding: 15px;
+    margin: 30px;
+    height: 30px;
+
+}
+.buttom {
+    margin: 100px;
+    width: 35px 20px;
+    height: 20px;
+
+}
+button {
+    width: 700px;
+    height: 2.5rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-size: large;
+    background-color: #E5C3D1;
+}
+button:hover {
+    opacity: 0.7;
+    transition: 0.5ms;
+}

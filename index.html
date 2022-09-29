@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea HTML_Formularios de BryanPinzon</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>LarnU basic form</h1>
+    <form>
+        <fieldset class="idiomas"><p>Idioma que desea aprender?</p>
+        <label><input type="radio" name="idioma" value="idiomaingles"></label>Inglés
+        <label><input type="radio" name="idioma" value="idiomaaleman"></label>Alemán
+        <label><input type="radio" name="idioma" value="idiomafrances"></label>Francés
+    </fieldset>
+        <fieldset class="conector">  
+            <p>Tipo de conector</p>
+            <select name="conector" class="Conector">
+                <option value="USB" label="USB"></option>
+                <option value="Paralelo" label="Paralelo"></option>
+                <option value="PS2" label="PS2"></option>
+            </select>
+        </fieldset> 
+        <fieldset class="nombres">
+                <label> Nombres <input type="text" name="nombre"></label>
+                <label> Apellidos <input type="text" name="apellidos"></label>
+        </fieldset >
+                <fieldset class="sexo">
+                    <label>
+                        Cual es tu genero?
+                        <select name="sexo" class="seleccion" multiple>
+                            <option value="hombre">Hombre</option>
+                            <option value="mujer">Mujer</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <label class="texto"> O selecciona
+                    <fieldset class="checkboxes">
+                    <input type="checkbox" name="sexo" value="sexomujer">Mujer
+                    <input type="checkbox" name="sexo" value="sexohombre">Hombre
+                </fieldset></label>
+                <label class="date"><input type="date"></label>
+                <div class="buttom"><button>Envia</button></div>
+            </div>
+    </form>
+</body>
+</html>
